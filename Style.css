@@ -1,0 +1,51 @@
+*{
+  margin: 10px;
+  padding: 10px;
+  box-sizing: border-box; 
+}
+
+.padre{
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+  .header{
+    background: #000;
+     display: flex;
+     flex-flow: column nowrap;
+     height: 500px;
+     width: 100%;
+  }
+  .menu{
+    background: #EADFB4;
+    display: flex;
+    flex-flow: row nowrap;
+  }
+    .logo{
+       background: hsl(207, 23%, 68%);
+       flex: 1 1 auto;
+       height: 100px;
+       width: 100%;
+    }
+        .Contenedor-1, .Contenedor-2{
+          background: #51829B;
+          display: flex;
+          flex-flow: row nowrap;
+        }
+        h1{
+          background: #F6995C;
+          text-align: center;
+          justify-content: center;
+           flex: 1 1 auto;
+           height: 100px;
+           width: 100px;
+        }
+        h2{
+          background: #F6995C;
+          text-align: center;
+          justify-content: center;
+           flex: 1 1 auto;
+        }
+       
+
+ 
